@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Firebase Authentication</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-3">
+        <div id="form-area">
+            <h2 class="text-center">Register</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="E M A I L" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Password</label>
+                    <input type="password" placeholder="P A S S W O R L D" name="password" class="form-control">
+                </div>
+                <div class="form-group my-3">
+                    <button type="subfmit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+
+        <hr>
+
+        <h2 class="text-center">Sign in</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="E M A I L" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Password</label>
+                    <input type="password" placeholder="P A S S W O R L D" name="password" class="form-control">
+                </div>
+                <div class="form-group my-3">
+                    <button type="subfmit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+
+        <div id="profile">
+            <h3 id="welcome">Hello</h3>
+            <button id="logout" class="btn btn-success">Logout</button>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
